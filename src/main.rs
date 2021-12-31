@@ -290,21 +290,20 @@ fn spawn_watch_shell(
                     println!("\x1B[2J\x1B[1;1H");
                 } else if input.eq("quit") {
                     should_quit.store(true, Ordering::SeqCst);
-                    println!("Bye!");
+                    println!("再见😊！");
                 } else if input.eq("help") {
-                    println!("Commands available to you in watch mode:");
-                    println!("  hint  - prints the current exercise's hint");
-                    println!("  clear - clears the screen");
-                    println!("  quit  - quits watch mode");
-                    println!("  help  - displays this help message");
+                    println!("在 watch 模式下可使用的命令:");
+                    println!("  hint  - 显示当前练习的提示");
+                    println!("  clear - 清理屏幕");
+                    println!("  quit  - 退出 watch 模式");
+                    println!("  help  - 显示这条帮助信息");
                     println!();
-                    println!("Watch mode automatically re-evaluates the current exercise");
-                    println!("when you edit a file's contents.")
+                    println!("当你编辑了练习文件的内容，watch 模式将自动重新评估当前练习");
                 } else {
-                    println!("unknown command: {}", input);
+                    println!("未知的命令: {}", input);
                 }
             }
-            Err(error) => println!("error reading command: {}", error),
+            Err(error) => println!("命令读取错误: {}", error),
         }
     });
 }
