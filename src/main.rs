@@ -296,7 +296,7 @@ fn spawn_watch_shell(
                     println!("  hint  - 显示当前练习的提示");
                     println!("  clear - 清理屏幕");
                     println!("  quit  - 退出 watch 模式");
-                    println!("  help  - 显示些条帮助信息");
+                    println!("  help  - 显示这些帮助信息");
                     println!();
                     println!("当你编辑了练习文件的内容，watch 模式将自动重新评估当前练习");
                 } else {
