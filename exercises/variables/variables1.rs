@@ -8,7 +8,7 @@
 
 // I AM NOT DONE
 
-/// 翻译: [mg-chap](https://github.com/mg-chao)
+/// 翻译: [mg-chao](https://github.com/mg-chao)
 /// 加油 💪
 fn main() {
     x = 5;
