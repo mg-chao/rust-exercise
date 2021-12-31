@@ -13,7 +13,7 @@
 3. 如果你在一个练习中被卡住了，可以通过键入 'hint'（在观察模式下），或运行
    `rustex hint myexercise`来查看提示。
 4. 如果你认为某个练习毫无意义，请随时在 Github 打开一个 issue
-   (https://github.com/rust-lang/rustlings/issues/new)。我们积极地关注着项目的
+   (https://github.com/rustcollege/rust-exercise/issues/new)。我们积极地关注着项目的
    每个问题和每一件事。其他学习者也这样做的话，这样你们就可以互相帮助了
 
 都明白了吗？牛🐂！可以运行 `rustex watch` 开始你的第一个练习。注意，确保打开你的编辑器!
