@@ -1,25 +1,19 @@
-Thanks for installing Rustlings!
+感谢安装 Rustlings!
 
-Is this your first time? Don't worry, Rustlings was made for beginners! We are
-going to teach you a lot of things about Rust, but before we can get
-started, here's a couple of notes about how Rustlings operates:
+你还没有任何使用经验？不用担心，Rustlings 正是为初学者量身定做！我们将教你大量
+有关 Rust 的知识, 但在我们开始之前，以下有几个关于如何使用 Rustlings 的说明：
 
-1. The central concept behind Rustlings is that you solve exercises. These
-   exercises usually have some sort of syntax error in them, which will cause
-   them to fail compilation or testing. Sometimes there's a logic error instead
-   of a syntax error. No matter what error, it's your job to find it and fix it!
-   You'll know when you fixed it because then, the exercise will compile and
-   Rustlings will be able to move on to the next exercise.
-2. If you run Rustlings in watch mode (which we recommend), it'll automatically
-   start with the first exercise. Don't get confused by an error message popping
-   up as soon as you run Rustlings! This is part of the exercise that you're
-   supposed to solve, so open the exercise file in an editor and start your
-   detective work!
-3. If you're stuck on an exercise, there is a helpful hint you can view by typing
-   'hint' (in watch mode), or running `rustlings hint myexercise`.
-4. If an exercise doesn't make sense to you, feel free to open an issue on GitHub!
-   (https://github.com/rust-lang/rustlings/issues/new). We look at every issue,
-   and sometimes, other learners do too so you can help each other out!
+1. Rustlings 的核心在于你需要去解决一些练习。这些练习通常有些语法上的错误导致了
+   他们无法通过编译或测试。有些又是逻辑上的问题。无论是什么错误，你的目标就是去找
+   到它们然后解决！当练习编译通过，这意味着你成功解决了！并且 Rustlings 也已向你
+   发起了下一题的挑战。
+2. 如果你以 watch 模式运行 Rustlings （推荐），它将自动从第一个练习开始。不要
+   为运行 Rustlings 时弹出的错误信息而感到困惑。因为你一运行 Rustlings 就会弹出
+   错误信息！这是练习的一部分，所以快用编辑器打开练习文件，然后像侦探一样工作!
+3. 如果你在一个练习中被卡住了，可以通过键入 'hint'（在观察模式下），或运行
+   `rustex hint myexercise`来查看提示。
+4. 如果你认为某个练习毫无意义，请随时在 Github 打开一个 issue
+   (https://github.com/rust-lang/rustlings/issues/new)。我们积极地关注着项目的
+   每个问题和每一件事。其他学习者也这样做的话，这样你们就可以互相帮助了
 
-Got all that? Great! To get started, run `rustlings watch` in order to get the first
-exercise. Make sure to have your editor open!
+都明白了吗？牛🐂！可以运行 `rustex watch` 开始你的第一个练习。注意，确保打开你的编辑器!

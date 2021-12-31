@@ -109,7 +109,7 @@ fn main() {
 
     if args.nested.is_none() {
         println!();
-        println!(r#"       welcome to...                      "#);
+        println!(r#"       欢迎来到...                        "#);
         println!(r#"                 _   _ _                  "#);
         println!(r#"  _ __ _   _ ___| |_| (_)_ __   __ _ ___  "#);
         println!(r#" | '__| | | / __| __| | | '_ \ / _` / __| "#);
